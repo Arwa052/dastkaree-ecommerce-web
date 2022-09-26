@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:&display=swap');
+
+@media screen and (max-width: 767px){
+    .slide{
+        height: 50vh;
+    }
+    .carousel-content-left {
+        left: 50%;
+    }
+    .carousel-content .heading{
+        font-size: 35px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .carousel-content .subtitle{
+        font-size: 15px;
+    }
+    .carousel-content .btnWrap {
+        margin-top: 15px;
+    }
+    .grid{
+        width: 50%;
+    }
+    .grid h2{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 560px){
+    .slide{
+        height: 40vh;
+    }
+    .carousel-content{
+        width: 80%;
+    }
+    .carousel-content-right,
+    .carousel-content-left{
+        left: 10%;
+    }
+    .carousel-content .heading {
+        font-size: 26px;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width: 850px){
+    /* .slide{
+        height: 60vh;
+    } */
+}
+@media screen and (max-width: 600px){
+    
+}
+@media screen and (max-width: 420px){
+    
+}
+
+
+
